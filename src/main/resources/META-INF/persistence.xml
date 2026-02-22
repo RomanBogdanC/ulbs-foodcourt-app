@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="https://jakarta.ee/xml/ns/persistence"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="https://jakarta.ee/xml/ns/persistence
+             https://jakarta.ee/xml/ns/persistence/persistence_3_0.xsd"
+             version="3.0">
+
+  <persistence-unit name="foodcourtPU" transaction-type="JTA">
+    <jta-data-source>jdbc/foodcourtDS</jta-data-source>
+
+    <class>ro.ulbs.foodcourt.entity.Category</class>
+    <class>ro.ulbs.foodcourt.entity.MenuItem</class>
+    <class>ro.ulbs.foodcourt.entity.Person</class>
+    <class>ro.ulbs.foodcourt.entity.Order</class>
+    <class>ro.ulbs.foodcourt.entity.OrderItem</class>
+    <class>ro.ulbs.foodcourt.entity.User</class>
+
+    <properties>
+      <property name="jakarta.persistence.schema-generation.database.action" value="update"/>
+      <property name="hibernate.dialect" value="org.hibernate.dialect.MySQL8Dialect"/>
+      <property name="hibernate.show_sql" value="true"/>
+      <property name="hibernate.format_sql" value="true"/>
+    </properties>
+  </persistence-unit>
+</persistence>
