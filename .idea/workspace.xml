@@ -5,10 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="794a31d7-b58a-4b08-987c-644b7400e7c0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ro/ulbs/foodcourt/servlet/AuthServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ro/ulbs/foodcourt/servlet/KioskServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ro/ulbs/foodcourt/servlet/KitchenServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ro/ulbs/foodcourt/servlet/AdminServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ro/ulbs/foodcourt/servlet/AuthFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ro/ulbs/foodcourt/servlet/CartServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ro/ulbs/foodcourt/servlet/DataInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ro/ulbs/foodcourt/servlet/MenuServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ro/ulbs/foodcourt/servlet/OrderServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ro/ulbs/foodcourt/servlet/ReceiptServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ro/ulbs/foodcourt/servlet/StatisticsServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/ulbs/foodcourt/ejb/AuthBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/ulbs/foodcourt/ejb/AuthBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/ulbs/foodcourt/ejb/MenuBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/ulbs/foodcourt/ejb/MenuBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/ulbs/foodcourt/ejb/OrderBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/ulbs/foodcourt/ejb/OrderBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/ulbs/foodcourt/ejb/PersonBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/ulbs/foodcourt/ejb/PersonBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/ulbs/foodcourt/ejb/StatisticsBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/ulbs/foodcourt/ejb/StatisticsBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/ulbs/foodcourt/entity/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/ulbs/foodcourt/entity/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/ulbs/foodcourt/entity/MenuItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/ulbs/foodcourt/entity/MenuItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/ulbs/foodcourt/entity/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/ulbs/foodcourt/entity/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/ulbs/foodcourt/entity/OrderItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/ulbs/foodcourt/entity/OrderItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/ulbs/foodcourt/entity/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/ulbs/foodcourt/entity/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/ulbs/foodcourt/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/ulbs/foodcourt/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/ulbs/foodcourt/servlet/AuthServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/ulbs/foodcourt/servlet/AuthServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/ulbs/foodcourt/servlet/KioskServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/ulbs/foodcourt/servlet/KitchenServlet.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +66,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 1
 }]]></component>
@@ -74,6 +96,11 @@
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\ulbs-foodcourt-app\ulbs-foodcourt-app\src/main/webapp/WEB-INF/" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ro.ulbs.foodcourt.ejb" />
+      <recent name="ro.ulbs.foodcourt.entity" />
+      <recent name="ro.ulbs.foodcourt.servlet" />
     </key>
   </component>
   <component name="RunManager">
@@ -111,7 +138,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1771796028043</updated>
-      <workItem from="1771796029168" duration="9847000" />
+      <workItem from="1771796029168" duration="11904000" />
     </task>
     <servers />
   </component>
